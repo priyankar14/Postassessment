@@ -5,12 +5,9 @@
     <classes>
       <class name="Trello.PostAssessment.TrelloBoard">
         <methods>
-          <include name="deleteBoard"/>
-          <include name="done"/>
+          <include name="board"/>
+          <include name="login"/>
           <include name="setup"/>
-          <include name="createDo"/>
-          <include name="logout"/>
-          <include name="doing"/>
           <include name="close"/>
         </methods>
       </class> <!-- Trello.PostAssessment.TrelloBoard -->

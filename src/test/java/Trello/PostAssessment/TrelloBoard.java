@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -18,9 +19,9 @@ public class TrelloBoard {
 
 	static WebDriver driver;
 
-	@BeforeClass
+	
 
-	@Test
+	@BeforeTest
 	public void setup() 
 	{
 		WebDriverManager.chromedriver().setup();
@@ -42,8 +43,9 @@ public class TrelloBoard {
 		driver.findElement(By.id("password")).sendKeys("Ankita@123");
 		driver.findElement(By.xpath("//span[text()='Log in']")).click();
 		Thread.sleep(3000);
-		//String actualTitle = driver.getTitle();
-		//String expectedTitle = "Log in to continue - Log in with Atlassian account";
+		String actualTitle = driver.getTitle();
+		String expectedTitle = "Log in to continue - Log in with Atlassian account";
+		Assert.assertEquals(actualTitle, expectedTitle);
 		System.out.println("User succefully login");
 	}
 
