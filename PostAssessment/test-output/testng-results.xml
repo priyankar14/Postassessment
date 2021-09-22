@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T22:00:59 IST" name="Default suite" finished-at="2021-09-22T22:01:52 IST" duration-ms="53904">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T22:00:59 IST" name="Default test" finished-at="2021-09-22T22:01:52 IST" duration-ms="53904">
+      <class name="Trello.PostAssessment.TrelloBoard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:00:59 IST" name="setup" finished-at="2021-09-22T22:01:08 IST" duration-ms="8979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:08 IST" name="login" description="Login to trello" finished-at="2021-09-22T22:01:20 IST" duration-ms="12139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="board()[pri:2, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:20 IST" name="board" description="Create Board" finished-at="2021-09-22T22:01:38 IST" duration-ms="18541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- board -->
+        <test-method signature="toDo()[pri:3, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:38 IST" name="toDo" description="Enter List Title and Add cards" finished-at="2021-09-22T22:01:42 IST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDo -->
+        <test-method signature="doing()[pri:4, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:42 IST" name="doing" description="Move cards frome Do to Doing" finished-at="2021-09-22T22:01:44 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doing -->
+        <test-method signature="done()[pri:5, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:44 IST" name="done" description="Move cards from doing to done" finished-at="2021-09-22T22:01:49 IST" duration-ms="5653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method signature="deleteBoard()[pri:6, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:49 IST" name="deleteBoard" description="Delete Board from workspace" finished-at="2021-09-22T22:01:50 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method signature="logout()[pri:7, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:50 IST" name="logout" description="Logout" finished-at="2021-09-22T22:01:52 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Trello.PostAssessment.TrelloBoard@49c386c8]" started-at="2021-09-22T22:01:52 IST" name="close" finished-at="2021-09-22T22:01:52 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Trello.PostAssessment.TrelloBoard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
